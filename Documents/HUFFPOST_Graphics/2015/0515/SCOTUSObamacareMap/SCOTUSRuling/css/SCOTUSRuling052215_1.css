@@ -1,0 +1,148 @@
+.container {
+    padding: 10px 5px 20px 5px;
+    width: 100%px;
+    border-bottom: 1px solid #000;
+}
+
+/*text styles*/
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.6em;
+}
+
+#text {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+h2 {
+    font-weight: 700;
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+#national {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: .5em 1em 1em 1em;
+    margin: 1em 0em 1em 0em;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+.subhed {
+   font-weight: 700;
+}
+
+.source {
+    font-size: .8em;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: left;
+
+}
+
+.aside {
+    font-size: .8em;
+    font-color: #aaa;
+    font-style: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.logo {
+    font-size: 1em;
+    float: right;
+    width: 50%;
+    font-family: Garamond, serif;
+    text-align:right;
+    text-transform:uppercase;
+
+}
+
+
+/* map */
+svg {
+    width: 100%;
+    padding: 1em 0em 1em 0em;
+}
+
+
+/* map interaction styling */
+.selected {
+    opacity: .5;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+
+/* tooltips */
+#blurbHeadline {
+    font-weight: 700;
+    font-size: 1.2em;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+#blurb {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: .5em 1em 1em 1em;
+    margin: 1em 0em 1em 0em;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+path:hover, path:active {
+    opacity: .5;
+}
+
+td {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 2em;
+}
+
+/*  project-specific styles for map and legend */
+
+.class1 {   
+    fill:#fd8d3c;
+    color:#fd8d3c;
+}
+.class2 {   
+    fill:#fc4e2a;
+    color:#fc4e2a;
+}
+.class3 {   
+    fill:#e31a1c;
+    color:#e31a1c;
+}
+.class4 {    
+    fill:#bd0026;
+    color: #bd0026;
+}
+.class5 {    
+    fill:#800026;
+    color: #800026;
+}
+.class6 {    
+    fill:#5f3c3a;
+    color: #5f3c3a;
+}
+
+
+/* mobile */
+@media screen and (max-width: 480px) {
+td{
+   display: block;
+   text-align: left;
+}
+        
+us_map{
+    height:200px;
+}
+
+
